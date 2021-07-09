@@ -1,0 +1,91 @@
+/*
+	Theme Name: Blog
+	Version: 1.0.0
+	Author: Przemek
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	display: block;
+}
+
+.social {
+	font-size: 3rem;
+	border-radius: 100rem;
+	text-decoration: none;
+	transition: color 200ms ease-in-out;
+	margin: .5rem;
+	color: #eee;
+}
+
+.social-github:hover {
+	color: #333;
+}
+
+.social-linkedin:hover {
+	color: #2867b2;
+}
+
+.social-facebook:hover {
+	color: #4267B2;
+}
+
+/* Comments */
+
+.comment {
+	margin-top: 1rem;
+	border: 1px solid #aaa;
+	padding: .75rem;
+}
+
+#comment {
+	width: 100%;
+}
+
+
+/* Search & Filter Styles */
+
+.searchandfilter p
+{
+	margin-top: 1em;
+	display: inline-block;
+}
+
+.searchandfilter ul
+{
+	display: inline-block;
+}
+
+.searchandfilter li
+{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+/* If in a widget area make a single column by adding display block  */
+.widget-area .searchandfilter li, .widget-area .searchandfilter p
+{
+	display: block;
+}
+
+.searchandfilter label
+{
+	display: block;
+}
+
+.searchandfilter h4
+{
+	margin: 15px 0;
+	font-size: 16px;
+}
+
+.searchandfilter ul > li > ul:not(.children)
+{
+	margin-left: 0;
+}
